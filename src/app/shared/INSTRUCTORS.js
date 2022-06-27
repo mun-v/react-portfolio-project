@@ -8,11 +8,11 @@ import Angie from '..assets/img/Angie';
 export const INSTRUCTORS = [
     {
         id: 0,
-        name: 'Alice',
+        name: 'Alice Castilow',
         image: adpfounder,
         featured: false,
         description:
-            // 'Nestled in the foothills of the Chrome Mountains, this campground on the shores of the pristine React Lake is a favorite for fly fishers.'
+            'Founder of Amira Dance Productions'
     },
     {
         id: 1,
@@ -21,42 +21,38 @@ export const INSTRUCTORS = [
         // classes:
         featured: false,
         description:
-            // 'Spend a few sunny days and starry nights beneath a canopy of old-growth firs at this enchanting spot by the Chrome River.'
+            'Spend a few sunny days and starry nights beneath a canopy of old-growth firs at this enchanting spot by the Chrome River.'
     },
     {
         id: 2,
         name: 'Elisa Montoya', 
         image: Elisa,
-        // classes:
         featured: false,
         description:
-            // 'Let NuCamp be your guide to this off-the-beaten-path, hike-in-only campground.'
+            'Studio Co-Owner. Instructor: Cabaret Basics, Aloha Dancers, Raqsat Jamila'
     },
     {
         id: 3,
         name: 'Di Flower',
         image: Di,
-        // classes: 
         featured: true,
         description:
-            // "You'll never want to leave this hidden gem, deep within the lush Redux Woods."
-    }
+            "Studio Co-Owner. Instructor: Improv Transnational Style basics, Datura™ basics and Datura™ technique (Datura Style™ Certified"
+    },
     {
         id: 4,
         name: 'Christina Byram',
         image: Christina,
-        // classes: 
         featured: true,
         description:
-            // "You'll never want to leave this hidden gem, deep within the lush Redux Woods."
-    }
+            "Instructor: Bollywood basics."
+    },
     {
         id: 5,
         name: 'Angie Ward',
         image: Angie,
-        // classes: 
         featured: true,
         description:
-            // "You'll never want to leave this hidden gem, deep within the lush Redux Woods."
+            "Instructor: Egyptian Folkloric, Gameel Danse."
     }
 ];
