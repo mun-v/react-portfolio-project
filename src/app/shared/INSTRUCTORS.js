@@ -1,15 +1,15 @@
-import adpfounder from '..assets/img/adpfounder';
-import Patricia from '..assets/img/Patricia';
-import Elisa from '..assets/img/Elisa';
-import Di from '..assets/img/Di';
-import Christina from '..assets/img/Christina';
-import Angie from '..assets/img/Angie';
+import Alice from '../assets/img/Alice.jpg'
+import Patricia from '../assets/img/Patricia.jpg';
+import Elisa from '../assets/img/Elisa.jpg';
+import Di from '../assets/img/Di.jpg';
+import Christina from '../assets/img/Christina.jpg';
+import Angie from '../assets/img/Angie.jpg';
 
 export const INSTRUCTORS = [
     {
         id: 0,
         name: 'Alice Castilow',
-        image: adpfounder,
+        image: Alice,
         featured: false,
         description:
             'Founder of Amira Dance Productions'

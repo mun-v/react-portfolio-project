@@ -1,15 +1,15 @@
 import React from "react";
 import "./App.css";
 import { Container, Navbar, NavbarBrand } from "reactstrap";
-import CourseList from "./features/courses/CourseList";
-import ADPLogo2 from "./app/assets/img/ADPLogo2.jpg";
-// import Header from './features/components/Header';
-// import Footer from './features/components/Footer';
+import CourseDirectoryPage from "./pages/CourseDirectoryPage";
+import ADPLogo2 from "./app/assets//img/ADPLogo2.jpg";
+import Header from './components/Header';
+import Footer from './components/Footer';
 
 function App() {
   return (
     <div className="App">
-      {/* <Header /> */}
+      <Header />
       <Navbar dark color="primary" sticky="top" expand="md">
         <Container>
           <NavbarBrand href="/">
@@ -18,11 +18,11 @@ function App() {
               alt="adp logo"
             />
           </NavbarBrand>
-          <CourseList />
+          <CourseDirectoryPage />
         </Container>
       </Navbar>
       I'm ready to dance!
-      {/* <Footer /> */}
+      <Footer />
     </div>
   );
 }
