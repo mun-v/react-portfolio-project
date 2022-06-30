@@ -1,10 +1,8 @@
 import TeacherSpotlight from '../assets/img/TeacherSpotlight.jpg';
-//Photo by Jonny Caspari on Unsplash
 import FCBDFlow from '../assets/img/FCBDFlow.jpg';
-// Photo by LoboStudio Hamburg on Unsplash
 import SummerSolstice from '../assets/img/SummerSolstice.jpg';
-// Photo by Jonathan Gallegos on Unsplash
 import GPRF2022 from '../assets/img/GPRF2022.jpg';
+
 
 export const PROMOTIONS = [
     {

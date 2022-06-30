@@ -9,6 +9,6 @@ export const selectCourseById = (id) => {
   
 };
 
-// export const selectFeaturedCourses = () => {
-    // return COURSES.find((course) => course.featured);
-// };
+export const selectFeaturedCourse = () => {
+    return COURSES.find((course) => course.featured);
+};
