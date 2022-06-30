@@ -1,12 +1,21 @@
-import { Container } from 'reactstrap';
-import CourseList from '../features/courses/CourseList';
-// import SubHeader from '../components/SubHeader';
+import { Container, Row, Col } from 'reactstrap';
+import CoursesList from '../features/courses/CoursesList';
+import CourseDetail from '../features/courses/CourseDetail';
+import { selectRandomCourse } from '../features/courses/coursesSlice';
+
 
 const CourseDirectoryPage = () => {
+    const selectedCourse = selectRandomCourse();
     return (
         <Container>
-            {/* <SubHeader current='Directory' /> */}
-            <CourseList />
+            <Row>
+                <Col sm='5' md='7'>
+                    <CoursesList />
+                </Col>
+                <Col sm='7' md='5'>
+                    <CourseDetail course={selectedCourse} />
+                </Col>
+            </Row>
         </Container>
     );
 };
