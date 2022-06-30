@@ -58,6 +58,6 @@ export const COURSES = [
         instructor: 'Mr. Bill',
         featured: true,
         description:
-            "Learn a wide range of partner dancing from West Coast swing to salso to traditional ballroom."
+            "Learn a wide range of partner dancing from West Coast swing to salsa to traditional ballroom."
     }
 ];
