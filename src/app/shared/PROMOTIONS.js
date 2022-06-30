@@ -1,41 +1,41 @@
-import breadCrumbImg from '../assets/img/breadcrumb-trail.jpg';
+import TeacherSpotlight from '../assets/img/TeacherSpotlight.jpg';
 //Photo by Jonny Caspari on Unsplash
-import weedsImg from '../assets/img/weeds.jpg';
+import FCBDFlow from '../assets/img/FCBDFlow.jpg';
 // Photo by LoboStudio Hamburg on Unsplash
-import bootsImg from '../assets/img/boots.jpg';
+import SummerSolstice from '../assets/img/SummerSolstice.jpg';
 // Photo by Jonathan Gallegos on Unsplash
-import asyncImg from '../assets/img/mount-promise.jpg';
+import GPRF2022 from '../assets/img/GPRF2022.jpg';
 
 export const PROMOTIONS = [
     {
         id: 0,
-        name: 'Mountain Adventure',
-        image: breadCrumbImg,
+        name: 'Teacher Spotlight Series',
+        image: TeacherSpotlight,
         featured: true,
         description:
-            'Book a 5-day mountain trek with a seasoned outdoor guide! Fly fishing equipment and lessons provided.'
+            'Let Di Flower take you on a tour of her dance hisotry, sharing how she cultivates her ideas of creativity.'
     },
     {
         id: 1,
-        name: 'Into The Weeds',
-        image: weedsImg,
+        name: 'Fall Great Plains Renaissance Festival',
+        image: GPRF2022,
         featured: false,
         description:
-            '5 days deep in the Redux National Monument, far from the beaten path, with only a reducer in your backpack. Guide provided.'
+            'Join us as we celebrate the return of the renaissance in Wichita at the 22nd Anual Fall Great Plains Renaissance and Scottish Festival!'
     },
     {
         id: 2,
-        name: 'Bootstrap Teardown',
-        image: bootsImg,
+        name: 'Summer Solstice Hafla',
+        image: SummerSolstice,
         featured: false,
-        description: `In this weekend workshop, we'll rebuild your bootstraps from scratch, so you're ready for next-level excursions.`
+        description: `Enjoy a variety of creative acts performed by our students and teachers in our annual summer showcase`
     },
     {
         id: 3,
-        name: 'Asynchronous Rendezvous',
-        image: asyncImg,
+        name: 'FCBD® Flow',
+        image: FCBDFlow,
         featured: false,
         description:
-            'Meet up with your guide at the top of Promise Mountain. Or, try to. Good luck!'
+            'Join us for one hour of dance with no instruction in the Fat Chance Bellydance® style zone.'
     }
 ];
