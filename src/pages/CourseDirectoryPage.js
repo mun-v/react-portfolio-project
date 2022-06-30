@@ -1,13 +1,22 @@
-import { Container, Row, Col } from 'reactstrap';
+import { Container, Row, Col, Button } from 'reactstrap';
 import CoursesList from '../features/courses/CoursesList';
 import CourseDetail from '../features/courses/CourseDetail';
 import { selectRandomCourse } from '../features/courses/coursesSlice';
 
 
 const CourseDirectoryPage = () => {
-    const selectedCourse = selectRandomCourse();
+    let selectedCourse = selectRandomCourse();
+
+    const toggleCourse = () => {
+        selectedCourse = selectRandomCourse();
+        console.log(selectedCourse);
+    };
+    
     return (
         <Container>
+            <Button onClick={() => toggleCourse()}>
+                Select Random Course
+            </Button>
             <Row>
                 <Col sm='5' md='7'>
                     <CoursesList />

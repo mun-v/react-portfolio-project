@@ -38,7 +38,7 @@ export const COURSES = [
         name: 'Egyptian Folkloric',
         image: EFolkloric,
         instructor: 'Malak',
-        featured: true,
+        featured: false,
         description:
             "Learn about the regional dances and the movements that reflect the lives and personalities of the various people of Egypt."
     },
@@ -47,7 +47,7 @@ export const COURSES = [
         name: 'Hula Hoop Basics',
         image: HoopHoneys,
         instructor: 'Robin',
-        featured: true,
+        featured: false,
         description:
             "Learn hula hooping tricks and dance moves together in a fun workout that indulges an American passion."
     },
