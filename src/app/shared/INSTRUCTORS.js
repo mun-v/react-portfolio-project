@@ -6,7 +6,7 @@ import Christina from '../assets/img/Christina.jpg';
 import Robin from '../assets/img/Robin.jpg';
 import Bill from '../assets/img/Bill.jpg';
 
-export const PARTNERS = [
+export const INSTRUCTORS = [
     {
         id: 0,
         name: 'Di Flower',
@@ -27,7 +27,7 @@ export const PARTNERS = [
         id: 2,
         name: 'Patricia Baab',
         image: Patricia,
-        featured: false,
+        featured: true,
         description:
             "Amira's L'Orient Dance Groupe"
     },
@@ -35,7 +35,7 @@ export const PARTNERS = [
         id: 3,
         name: 'Angie Ward',
         image: Angie,
-        featured: true,
+        featured: false,
         description:
             "Egyptian Folkloric and Gameel Danse"
     },

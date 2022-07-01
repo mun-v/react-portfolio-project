@@ -1,7 +1,7 @@
 import { INSTRUCTORS } from '../../app/shared/INSTRUCTORS';
 
 export const selectAllInstructors = () => {
-    return instructorsArray;
+    return INSTRUCTORS;
 };
 
 export const selectFeaturedInstructor = (_) => {
