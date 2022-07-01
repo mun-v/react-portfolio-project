@@ -11,7 +11,7 @@ export const PROMOTIONS = [
         image: TeacherSpotlight,
         featured: true,
         description:
-            'Let Di Flower take you on a tour of her dance hisotry, sharing how she cultivates her ideas of creativity.'
+            'Let Di Flower take you on a tour of her dance history, sharing how she cultivates her ideas of creativity.'
     },
     {
         id: 1,

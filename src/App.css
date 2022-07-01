@@ -43,10 +43,10 @@ h2 {
 }
 
 .navbar-brand img {
-    width: 100%;
+    width: 130px;
     height: 100%;
     margin-right: 2rem;
-    max-width: 4rem;
+    /* max-width: 4rem; Don't use!!! */
 }
 
 .navbar-dark {

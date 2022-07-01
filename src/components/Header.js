@@ -15,7 +15,8 @@ const Header = () => {
   return (
     <Navbar dark color="primary" sticky="top" expand="md">
       <NavbarBrand className='ms-5' href="/">
-        <img src={ADPLogo2} alt="adp logo" className='float-start' />
+        <img src={ADPLogo2} alt="adp logo" className='float-start' 
+         />
         <h1 className='mt-1'>Amira Dance Productions</h1>
       </NavbarBrand>
 
