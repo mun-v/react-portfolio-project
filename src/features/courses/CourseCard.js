@@ -1,19 +1,18 @@
 import React from "react";
 import { Card, CardImg, CardImgOverlay, CardTitle } from "reactstrap";
+import { Link } from 'react-router-dom';
 
-
-const CourseCard = (props) => {
+const CourseCard = ({ course }) => {
+  const { id, image, name } = course;
   return (
+    <Link to={`${id}`}>
       <Card>
-        <CardImg 
-          width="100%" 
-          src={props.course.image} 
-          alt={props.course.name} 
-        />
+        <CardImg width="100%" src={image} alt={name} />
         <CardImgOverlay>
-          <CardTitle>{props.course.name}</CardTitle>
+          <CardTitle>{name}</CardTitle>
         </CardImgOverlay>
       </Card>
+    </Link>
   );
 };
 
