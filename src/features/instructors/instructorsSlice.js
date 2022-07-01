@@ -1,9 +1,21 @@
-import { INSTRUCTORS } from '../../app/shared/INSTRUCTORS';
+import { createSlice } from "@reduxjs/toolkit";
+import { INSTRUCTORS } from "../../app/shared/INSTRUCTORS";
 
-export const selectAllInstructors = () => {
-    return INSTRUCTORS;
+const initialState = {
+  instructorsArray: INSTRUCTORS,
 };
 
-export const selectFeaturedInstructor = (_) => {
-    return INSTRUCTORS.find(({ featured }) => featured); 
+const instructorsSlice = createSlice({
+  name: "instructors",
+  initialState,
+});
+
+export const instructorsReducer = instructorsSlice.reducer;
+
+export const selectAllInstructors = (state) => {
+  return state.instructors.instructorsArray;
+};
+
+export const selectFeaturedInstructor = (state) => {
+  return state.instructors.instructorsArray.find(({ featured }) => featured);
 };

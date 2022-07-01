@@ -1,9 +1,10 @@
 import { Row, Col } from 'reactstrap';
+import { useSelector } from 'react-redux';
 import Instructor from './Instructor';
 import { selectAllInstructors } from './instructorsSlice';
 
 const InstructorsList = () => {
-    const instructors = selectAllInstructors();
+    const instructors = useSelector(selectAllInstructors);
 
     return(
         <Col className='mt-4'>
