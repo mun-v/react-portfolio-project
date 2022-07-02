@@ -1,4 +1,5 @@
 import { configureStore } from '@reduxjs/toolkit';
+import logger from 'redux-logger';
 import { coursesReducer } from '../features/courses/coursesSlice';
 import { commentsReducer } from '../features/comments/commentsSlice';
 import { instructorsReducer } from '../features/instructors/instructorsSlice';
@@ -10,5 +11,6 @@ export const store = configureStore({
       comments: commentsReducer,
       instructors: instructorsReducer,
       promotions: promotionsReducer
-  }
+  },
+  middleware: (getDefaultMiddleware) => getDefaultMiddleware().concat([logger])
 });
