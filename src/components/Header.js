@@ -17,7 +17,7 @@ const Header = () => {
       <NavbarBrand className='ms-5' href="/">
         <img src={ADPLogo2} alt="adp logo" className='float-start' 
          />
-        <h1 className='mt-1'>Amira Dance Productions</h1>
+        <h1 className='mt-4'>Amira Dance Productions</h1>
       </NavbarBrand>
 
       <NavbarToggler onClick={() => setMenuOpen(!menuOpen)} />

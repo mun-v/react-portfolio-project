@@ -3,160 +3,168 @@ export const COMMENTS = [
         id: 0,
         courseId: 0,
         rating: 5,
-        text: 'The grass was indeed greener here than our last campsite.',
-        author: 'Simon Hunt',
-        date: '2018-10-25T16:30Z'
+        text: "I've only taken one class, but definitely plan to come back for more. So much fun!!",
+        author: 'Cherry McDaniel',
+        date: '2020-10-25T16:30Z'
     },
     {
         id: 1,
-        courseId: 0,
-        rating: 3,
-        text: 'This lone monkey kept following us back to our tent.',
-        author: 'Zandra Katherine',
+        courseId: 1,
+        rating: 5,
+        text: 'A great class for me to reconnect to my roots',
+        author: 'Shanti Rampal',
         date: '2017-06-17T03:33Z'
     },
     {
         id: 2,
-        courseId: 0,
+        courseId: 2,
         rating: 4,
-        text: 'Do not feed the wildlife. They will follow you back to the tent.',
-        author: 'Amy Keophilavong',
+        text: 'The course was a new experience for me, but Di is super nice and very knowledgeable.',
+        author: 'Aria Keophilavong',
         date: '2019-02-18T18:12Z'
     },
     {
         id: 3,
-        courseId: 0,
+        courseId: 3,
         rating: 3,
-        text: "Avoid Sundays; couldn't relax and play my flute with all the noisy kids.",
-        author: 'Jean Luc',
+        text: "Parking can be a little difficult to find because the classes are always full.",
+        author: 'Karen Smith',
         date: '2019-08-04T20:11Z'
     },
     {
         id: 4,
-        courseId: 0,
+        courseId: 4,
         rating: 5,
-        text: "This has been our favorite campsite for over 7 years. It is an absolutely beautiful site. The hosts are very friendly and helpful. Don't forget to try out the lake.",
-        author: 'R. E. Osariemen',
-        date: '2018-07-23T19:44Z'
+        text: "Amazing class with amazing women. I can't wait to check out the other basics classes!",
+        author: 'Kresley Coleman',
+        date: '2021-07-23T19:44Z'
     },
     {
         id: 5,
-        courseId: 1,
-        rating: 4,
-        text: "There's nothing more fun than setting up a tent in a rainstorm.",
-        author: 'Juan Cortez',
+        courseId: 4,
+        rating: 2,
+        text: "Great class, but there are too many stairs. The location is not for me.",
+        author: 'Pauleen Sutherland',
         date: '2017-06-17T03:33Z'
     },
     {
         id: 6,
-        courseId: 1,
+        courseId: 5,
         rating: 5,
-        text: 'I caught a world-record-breaking trout here on my last visit.',
-        author: 'McKenzie Sebastian',
+        text: "Mr. Bill is one of the sweetest people I've ever met. He helped my husband and I prepare for our first dance at our wedding. Highly recommend!",
+        author: 'Mari McRieve',
         date: '2019-02-18T18:12Z'
     },
     {
         id: 7,
         courseId: 1,
         rating: 5,
-        text: 'The campground was beautiful, but the bugs could bite sometimes.',
-        author: 'Brennen Ech',
-        date: '2019-08-04T20:11Z'
+        text: "This class is a great workout. I enjoy the music and atmosphere.",
+        author: 'Brianna Kline',
+        date: '2010-08-04T20:11Z'
     },
     {
         id: 8,
         courseId: 1,
         rating: 4,
-        text: "Love the river but I didn't catch any fish.",
-        author: 'Amy Keophilavong',
-        date: '2018-07-23T19:44Z'
+        text: "Christina is a wonderful instructor",
+        author: 'Linh Nguyen',
+        date: '2022-05-23T19:44Z'
     },
     {
         id: 9,
         courseId: 1,
         rating: 5,
-        text: 'A wonderful place to reconnect with nature.',
-        author: 'Jordan Runn',
-        date: '2019-08-04T20:11Z'
+        text: 'A great class to get fit with dance and a chance to meet new friends!',
+        author: 'Terri Sheridan',
+        date: '2021-08-04T20:11Z'
     },
     {
         id: 10,
         courseId: 2,
         rating: 5,
-        text: 'The Frozen Tundra is great place for family and friends camping!',
-        author: 'Olaf the Snowman',
+        text: 'This is an awesome class. Lady Di is great!',
+        author: 'Jillina Carlino',
         date: '2019-02-18T18:12Z'
     },
     {
         id: 11,
         courseId: 2,
         rating: 1,
-        text: 'We had to leave about 2am to go back to the city because the quiet was just too much!',
-        author: 'Vincent and Mona Lisa Gambini',
+        text: 'I had to leave before the class was over because the music was just too much.',
+        author: 'Myrtle Gambini',
         date: '2018-10-25T16:30Z'
     },
     {
         id: 12,
         courseId: 2,
         rating: 5,
-        text: 'The stars at night were a revelation!',
-        author: 'Ann Dabramov',
+        text: 'The sisterhood of this class is like no other!',
+        author: 'Natalia Sevastyan',
         date: '2018-07-23T19:44Z'
     },
     {
         id: 13,
         courseId: 2,
         rating: 4,
-        text: 'Great scenic hiking trails but it was challenging to go up the mountain.',
-        author: 'Amy Keophilavong',
+        text: 'The combinations can be challenging at times, but my body has become stronger and better coordinated for it.',
+        author: 'Aria Keophilavong',
         date: '2018-10-25T16:30Z'
     },
     {
         id: 14,
         courseId: 2,
         rating: 5,
-        text: 'Perfect scenery for a smoked kipper breakfast with friends!',
-        author: 'Dave Lister',
+        text: 'I cannot say enough things about Di and her class. You have to try it!',
+        author: 'Donna Davis',
         date: '2019-08-04T20:11Z'
     },
     {
         id: 15,
         courseId: 3,
         rating: 4,
-        text: 'Just remember a bear can run and climb faster than you...',
-        author: 'Markell Richards',
+        text: 'Angie is very knowledgeable and a talented choreographer.',
+        author: 'Marcola Reeves',
         date: '2017-06-17T03:33Z'
     },
     {
         id: 16,
         courseId: 3,
         rating: 5,
-        text: 'Excellent site to recharge from the city.',
-        author: 'Amy Keophilavong',
+        text: 'There are so many aspects to Egyptian style bellydance than I ever realized. I learn something new each class!',
+        author: 'Aria Keophilavong',
         date: '2018-07-23T19:44Z'
     },
     {
         id: 17,
         courseId: 3,
         rating: 5,
-        text: 'What a magnificent view!',
-        author: 'Tinus Lorvaldes',
-        date: '2018-10-25T16:30Z'
+        text: "It's an awesome class. Angie is great!",
+        author: 'Tina Hanson',
+        date: '2019-10-25T16:30Z'
     },
     {
         id: 18,
-        courseId: 3,
+        courseId: 5,
         rating: 4,
-        text: 'The sites are huge! We felt like we were in the middle of nowhere, in a good way.',
-        author: 'Chloe Haskins',
+        text: "I loved learning the West Coast swing style!",
+        author: 'Chloe Harding',
         date: '2017-06-17T03:33Z'
     },
     {
         id: 19,
-        courseId: 3,
+        courseId: 4,
         rating: 5,
-        text: "The photos don't do justice to the beauty of this place.",
-        author: 'Minae Lee',
+        text: "I didn't realize how much of a workout this class is. I love it!",
+        author: 'JiSoo Kim',
+        date: '2019-02-18T18:12Z'
+    },
+    {
+        id: 19,
+        courseId: 0,
+        rating: 4,
+        text: "Elisa is the best! She makes the class inviting and explains everything so well.",
+        author: 'Anita Takashi',
         date: '2019-02-18T18:12Z'
     }
 ];

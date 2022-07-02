@@ -37,7 +37,7 @@ export const COURSES = [
         id: 3,
         name: 'Egyptian Folkloric',
         image: EFolkloric,
-        instructor: 'Malak',
+        instructor: 'Angie',
         featured: false,
         description:
             "Learn about the regional dances and the movements that reflect the lives and personalities of the various people of Egypt."
